@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin:0px;
+}
+
+html,body{
+    background-color: rgb(41, 1, 41);
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin:0% 2% 0% 2%;
+}
+
+.spacer{
+    width:30%;
+}
+
+p{
+    font-family: 'Noto Sans';
+}
+
+.detailed{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.cont{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    margin:0px 10px 0px 10px;
+}
+
+.content{
+    display:flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#devname{
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    font-size:50px;
+    color:rgb(220, 79, 130);
+    font-weight: 700;
+    font-family:'Noto Sans';
+    margin-right: 35px;
+}
+
+.det{
+    width: 100%;
+}
+
+
+.det p.detp{
+    font-size:28px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 6px;
+}
+
+#sptype1{
+    color:rgb(194, 170, 193);
+    font-weight:100;
+    font-size:40px;
+}
+
+#sptype2{
+    color:rgb(165, 115, 164);
+}
+
+#sptype3{
+    color:rgb(139, 61, 139);
+}
+
+.dev-proj-link{
+    color:rgb(139, 61, 139);
+    font-size:16px;
+    margin-right: 10px;
+}
+
+.devprojlink{
+    margin-top:35px;
+    display:flex;
+}
